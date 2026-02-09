@@ -1,0 +1,32 @@
+{
+  "name": "is-x-not-integer",
+  "version": "1.0.0",
+  "description": "Check if something's not an integer",
+  "keywords": [
+    "10x'ly"
+  ],
+  "homepage": "https://github.com/10xly/is-x-not-integer#readme",
+  "bugs": {
+    "url": "https://github.com/10xly/is-x-not-integer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10xly/is-x-not-integer.git"
+  },
+  "license": "MIT",
+  "author": "10x'ly",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test.js"
+  },
+  "dependencies": {
+    "@not-js/not": "^1.1.1",
+    "is-falsey-x": "^1.0.3",
+    "is-integer": "^1.0.7",
+    "is-not-integer": "^1.0.2"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
